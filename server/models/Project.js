@@ -4,11 +4,11 @@ const mongoose = require('mongoose'); // Erase if already required
 var ProjectSchema = new mongoose.Schema({
     name:{
         type:String,
-        required:true,
+        requierd: true,
     },
-    decription:{
+    description:{
         type:String,
-        required:true,
+        requierd: true,
     },
     status:{
         type:String,
